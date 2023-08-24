@@ -5,8 +5,7 @@ on:
     branches:
       - main
       - devops
-      - develop 
-
+      - develop
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,3 +26,7 @@ jobs:
       - name: Build PlatformIO Project
         working-directory: exemples/1-basic-usage
         run: pio run
+      - name: Deploy Adapter library
+        run: pio pkg publish --no-interactive
+        env:
+          PLATFORMIO_AUTH_TOKEN: ${{ secrets.PLATFORMIO_AUTH_TOKEN }}
