@@ -1,0 +1,24 @@
+{
+  "name": "esp32-hive-adapter",
+  "version": "0.0.3",
+  "description": "ESP32 Adapter for hive platform",
+  "keywords": "esp32, hive, oat",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/hive-platform/esp32-hive-adapter"
+  },
+  "authors":
+  [
+    {
+      "name": "Nicolas SANS",
+      "email": "nicolas.sansd@gmail.com",
+      "url": "https://nikho.dev/"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://www.hive-platform.dev/",
+  "dependencies": {},
+  "frameworks": "*",
+  "platforms": "*"
+}
