@@ -1,6 +1,6 @@
 {
   "name": "esp32-hive-adapter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESP32 Adapter for hive platform",
   "keywords": "esp32, hive, oat",
   "repository":
